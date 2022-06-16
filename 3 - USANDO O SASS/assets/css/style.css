@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body {
+  background-color: #ff00ff;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+/* Microsoft Windows [versão 10.0.19044.1645]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\natha>cd "C:\Users\natha\OneDrive\Documentos\Projeto DEV\Automação Expert  Full Stack Development-QA\(9) SASS\3 - USANDO O SASS"
+
+C:\Users\natha\OneDrive\Documentos\Projeto DEV\Automação Expert  Full Stack Development-QA\(9) SASS\3 - USANDO O SASS>sass assets/sass/base.scss assets/css/style.css
+
+C:\Users\natha\OneDrive\Documentos\Projeto DEV\Automação Expert  Full Stack Development-QA\(9) SASS\3 - USANDO O SASS>
+
+PRA NÃO GERAR O ARQUIVO .map O COMANDO É --no-source-map
+
+PRA GERAR O ARQUIVO COMPRIMIDO O COMANDO É --style compressed
+*/
+
+/*# sourceMappingURL=style.css.map */

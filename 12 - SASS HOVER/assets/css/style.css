@@ -1,0 +1,35 @@
+nav {
+  background-color: #eee;
+  height: 100px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  display: block;
+  background-color: #999;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+nav li a:hover {
+  font-weight: bold;
+  background-color: #00ff00;
+  color: #000;
+}
+
+.item-10, .item-9, .item-8, .item-7, .item-6, .item-5, .item-4, .item-3, .item-2, .item-1 {
+  font-size: 14px;
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #000;
+}
+
+.item-3, .item-2, .item-1 {
+  font-weight: bold;
+}

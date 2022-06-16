@@ -1,0 +1,51 @@
+
+nav {
+    background-color: #eee;
+    height: 100px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+
+        a {
+            display: block;
+            background-color: #999;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+
+
+}
+
+$item-width:100px;
+
+%item {
+    background-color: #000;
+    height: 40px;
+    margin-bottom: 5px
+}
+
+.item {
+    @extend %item;
+    width: 100px; 
+
+}
+
+.item_duplo {
+    @extend %item;
+    width: $item-width * 4;
+}
+
+.item_metade {
+    @extend %item;
+    width: $item-width / 2;
+}
+
+

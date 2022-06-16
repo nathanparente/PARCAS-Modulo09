@@ -1,0 +1,44 @@
+nav {
+  background-color: #eee;
+  height: 100px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  display: block;
+  background-color: #999;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/*GRUPO DE PROPRIEDADES*/
+.msg-sucesso, .msg-aviso, .msg-info {
+  padding: 10px;
+  font-size: 24px;
+  border: 2px solid #ccc;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+.msg-info {
+  border-color: #0000ff;
+  color: #0000ff;
+}
+
+.msg-aviso {
+  border-color: #ff0000;
+  color: #ff0000;
+}
+
+.msg-sucesso {
+  border-color: #00ff00;
+  color: #00ff00;
+}

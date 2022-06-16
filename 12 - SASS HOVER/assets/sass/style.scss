@@ -1,0 +1,50 @@
+
+nav {
+    background-color: #eee;
+    height: 100px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+
+        a {
+            display: block;
+            background-color: #999;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                font-weight: bold;
+                background-color: #00ff00;
+                color: #000;
+            }
+        }
+    }
+}
+
+%item-padrao {
+    font-size: 14px;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #000;
+}
+
+%item-negrito {
+    font-weight: bold
+}
+
+@for $i from 1 through 10 {
+    .item-#{$i} {
+        @extend %item-padrao;
+
+        @if $i <= 3 {
+            @extend %item-negrito
+        }
+    }
+}

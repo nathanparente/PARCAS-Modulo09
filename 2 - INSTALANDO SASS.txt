@@ -1,0 +1,51 @@
+O SASS PRECISA SER INSTALADO E POR ISSO É INTERESSANTE TER UMA PASTA ESPECÍIFCA PARA O SASS NO PROJETO E UMA OUTRA
+COM O CSS QUE VAI SER LIDO PELO NAVEGADOR
+
+ALGUMAS RECOMENDAÇÕES PARA INSTALAR: 
+
+SOFTWARES: 
+
+CodeKit (Paid) Mac
+Ghostlab (Paid) Mac Windows
+Hammer (Paid) Mac
+LiveReload (Paid, Open Source) Mac Windows
+Prepros (Paid) Mac Windows Linux
+Scout-App (Free, Open Source) Windows Linux Mac
+
+LINHAS DE COMANDO: 
+
+When you install Sass on the command line, you'll be able to run the sass executable to compile .sass and .scss files to .css files. 
+
+For example:
+sass source/stylesheets/index.scss build/stylesheets/index.css
+
+First install Sass using one of the options below, then run sass --version to be sure it installed correctly. 
+If it did, this will include 1.50.0. You can also run sass --help for more information about the command-line interface.
+
+Once it's all set up, go and play. If you're brand new to Sass we've set up some resources to help you learn pretty darn quick.
+
+PATH 
+The PATH is an important concept when working on the command line. 
+
+It's a list of directories that tell your operating system where to look for programs, 
+so that you can just write script instead of /home/me/bin/script or C:\Users\Me\bin\script. 
+
+But different operating systems have different ways to add a new directory to it:
+
+WINDOWS: 
+1- The first step depends which version of Windows you're using:
+- If you're using Windows 8 or 10, press the Windows key, then search for and select "System (Control Panel)".
+- If you're using Windows 7, right click the "Computer" icon on the desktop and click "Properties".
+
+2- Click "Advanced system settings".
+
+3- Click "Environment Variables".
+
+4- Under "System Variables", find the PATH variable, select it, and click "Edit". If there is no PATH variable, click "New".
+
+5- Add your directory to the beginning of the variable value followed by ; (a semicolon). 
+- For example, if the value was C:\Windows\System32, change it to C:\Users\Me\bin;C:\Windows\System32.
+
+6- Click "OK".
+
+7- Restart your terminal.

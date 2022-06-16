@@ -1,0 +1,51 @@
+ A sigla SASS significa “Syntactically Awesome Style Sheets” – ou seja, Folhas de Estilo com Sintaxe Espetacular.
+ 
+ EXISTE UMA DIFERENÇA ENTRE SASS E SAAS 
+
+ SASS = FERRAMENTA
+ SAAS = Software as a service 
+
+ O SASS É UM PRÉ PROCESSADOR DE CSS, VOCÊ CRIA UM CSS E ELE VAI SER PROCESSADO PELO SASS E SE TORNAR OUTRO CSS
+
+ A ideia é manter a mesma lógica do CSS (seletores, regras etc), mas de uma maneira mais organizada, 
+ intuitiva e com trechos de código facilmente reutilizáveis.
+
+ Com o SASS, é muito mais fácil desenvolver um projeto grande e não se perder no meio de tanto código.
+
+ DIFERENÇAS ENTRE O CSS E O SAAS
+
+VARIÁVEIS:
+    Variáveis são uma maneira de armazenar informações para reutilizá-las ao longo do código. 
+    Você pode guardar cores, nomes de fontes, medidas de margens ou qualquer valor que desejar.
+
+    Digamos que sua página tenha 300 propriedades que usam a mesma cor – por exemplo, amarelo (#dddd00).
+
+    Se, por algum motivo, fosse preciso trocar essa cor para roxo, o processo com o CSS seria uma tremenda dor de cabeça.
+     Você precisaria simplesmente digitar a nova cor em todas as 300 propriedades.
+
+ORGANIZAÇÃO DE HIERARQUIA:
+    Lembra que comentamos como é complicado fazer combinações de seletores no CSS e que o documento pode se tornar um caos?
+
+    No SASS, essas combinações são feitas de forma muito mais intuitiva, com uma espécie de organização hierárquica do código.
+
+    O procedimento é simples: basta colocar um “tab” à direita para cada nível hierárquico.
+
+MODULARIDADE:
+    No CSS, geralmente todas as regras estão contidas em um único documento – por isso, os códigos têm muitas linhas e são enormes. 
+    É complicado dar manutenção (corrigir erros) ou mesmo fazer modificações neles.
+
+    Já no SASS, é possível importar um documento dentro de outro e gerar pequenos arquivos de texto com regras 
+    referentes apenas a determinados elementos.
+
+    Você pode criar, por exemplo, um documento que contenha só as regras dos botões, outro que possua as regras para os títulos, 
+    um terceiro relativo somente ao cabeçalho, e assim por diante.
+
+    Depois, é só importar todos esses arquivos dentro de um arquivo mestre e todas as regras serão adicionadas ao documento final.
+
+COMPATIBILIDADE COM NAVEGADORES:
+    Usar o SASS pode facilitar bastante sua vida, mas a verdade é que os navegadores entendem somente uma linguagem: o CSS.
+
+    SASS e similares (como SCSS e LESS) são linguagens “pré-processadas” – ou seja, depois de escrever o código com elas, 
+    você precisa utilizar outro programa para interpretá-lo e “traduzi-lo” para CSS.
+
+    Esse programa irá, então, gerar um arquivo final com a extensão .css, que é o arquivo que você irá adicionar a sua página HTML.

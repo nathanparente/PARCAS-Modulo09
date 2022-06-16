@@ -1,0 +1,32 @@
+@mixin girar ($graus) {
+    transform: rotate($graus);
+    -webkit-transform:rotate($graus);
+    -moz-transform: rotate($graus);
+    -ms-transform: rotate($graus);
+}
+nav {
+    background-color: #eee;
+    height: 100px;
+    padding: 30px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        @include girar(30deg);
+
+        a {
+            display: block;
+            background-color: #999;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+
+
+}
